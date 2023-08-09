@@ -291,5 +291,12 @@
     font-style: normal;
     font-weight: 400;
     line-height: 22px;
-    /* 157.143% */
+
+}
+
+@media (max-width: 575px) {
+    .order-confirmation-footer {
+        padding: 0 10px;
+        font-size: 12px;
+    }
 }
