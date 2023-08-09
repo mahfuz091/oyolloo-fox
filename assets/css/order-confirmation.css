@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.order-confirmation-wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.order-confirmation-canvas {
+    text-align: center;
+    padding: 40px 72px;
+
+    background: #F5CA56;
+}
+
+order-confirmation-canvas-title {
+    color: #191F26;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    /* 136.364% */
+}
+
+.order-confirmation-canvas-des {
+    color: #191F26;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 157.143% */
+}
+
+.order-summery {
+    color: #191F26;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    /* 136.364% */
+    margin-top: 40px;
+    margin-bottom: 8px;
+}
+
+.order-date {
+    color: #191F26;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 157.143% */
+    margin-bottom: 20px;
+}
+
+.order-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.order-img {
+
+    width: 200px;
+    height: 200px;
+    padding: 27px 41px 27px 40px;
+
+
+    border-radius: 8px;
+    background: #FAFAFA;
+
+}
+
+.order-details {
+    /* padding: 14px 20px 12.387px 20px; */
+    border-radius: 8px;
+    border: 1px solid #DDD;
+    background: #FFF;
+    width: 259px;
+}
+
+.order-details__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order-details__items h5 {
+    color: #566363;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 10px;
+    /* 100% */
+}
+
+.order-details__items p {
+    color: #566363;
+    text-align: right;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 10px;
+    /* 100% */
+}
